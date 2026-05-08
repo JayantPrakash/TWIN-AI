@@ -21,29 +21,36 @@ The project demonstrates production-style AI engineering practices including fro
 ## 🏗️ Architecture
 
 ```text
-                ┌─────────────────────┐
-                │     Frontend UI     │
-                │   (React / Next.js) │
-                └─────────┬───────────┘
-                          │
-                          ▼
-                ┌─────────────────────┐
-                │    Backend APIs     │
-                │   (FastAPI/Node)    │
-                └─────────┬───────────┘
-                          │
-          ┌───────────────┼────────────────┐
-          ▼               ▼                ▼
-   ┌────────────┐  ┌────────────┐  ┌────────────┐
-   │   LLMs     │  │ Vector DB  │  │ Auth/OTP   │
-   │ OpenAI/etc │  │ Pinecone   │  │ Firebase   │
-   └────────────┘  └────────────┘  └────────────┘
-                          │
-                          ▼
-                ┌─────────────────────┐
-                │   Cloud Services    │
-                │ AWS / CloudFront    │
-                └─────────────────────┘
+┌───────────────────────────────────────────────────────────────┐
+│                         User / Browser                        │
+└───────────────────────────────┬───────────────────────────────┘
+                                │
+                                ▼
+┌───────────────────────────────────────────────────────────────┐
+│                      Frontend Application                     │
+│                   React / Next.js / TypeScript                │
+│              UI Pages • Components • API Client               │
+└───────────────────────────────┬───────────────────────────────┘
+                                │ HTTPS API Calls
+                                ▼
+┌───────────────────────────────────────────────────────────────┐
+│                         Backend API                           │
+│                    FastAPI / Node.js Server                   │
+│          Request Handling • Validation • Business Logic       │
+└───────────────────────────────┬───────────────────────────────┘
+                                │
+                                ▼
+┌───────────────────────────────────────────────────────────────┐
+│                          AI Layer                             │
+│              LLM Calls • Prompt Logic                         │
+│               Digital Twin Reasoning • Response Generation    │
+└───────────────────────────────┬───────────────────────────────┘
+                                │
+                                ▼
+┌───────────────────────────────────────────────────────────────┐
+│                      Deployment / Cloud                       │
+│        AWS S3 • CloudFront • AWS Lambda • API Gateway         │
+└───────────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -88,7 +95,8 @@ The project demonstrates production-style AI engineering practices including fro
 
 * AWS S3
 * AWS CloudFront
-* Route 53
+* API Gateway
+* AWS Lambda
 * Docker
 * GitHub Actions
 
