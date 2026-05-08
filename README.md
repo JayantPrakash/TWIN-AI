@@ -59,7 +59,6 @@ The project demonstrates production-style AI engineering practices including fro
 
 * 🤖 AI-powered Digital Twin interactions
 * 🧠 LLM integration for intelligent conversations
-* 🔍 Retrieval-Augmented Generation (RAG)
 * ☁️ AWS cloud deployment support
 * 🌐 CDN delivery using CloudFront
 * 🔐 Authentication & session handling
