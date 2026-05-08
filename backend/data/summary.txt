@@ -1,0 +1,5 @@
+I am an AI Engineer with 8+ years of experience designing 
+and building AI systems, LLM applications, and scalable ML solutions. 
+Strong expertise in Generative AI, agent workflows, RAG systems, and ML model development 
+and deployment. Experienced in API development, system design, evaluation frameworks, 
+and production deployment using FastAPI, Docker, and cloud platforms.
