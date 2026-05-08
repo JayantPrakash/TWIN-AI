@@ -86,9 +86,7 @@ The project demonstrates production-style AI engineering practices including fro
 ## AI/ML
 
 * OpenAI APIs
-* LangChain
-* RAG Pipelines
-* Vector Embeddings
+* LLM
 
 ## Cloud & DevOps
 
@@ -219,12 +217,6 @@ docker run -p 8000:8000 twin-ai
 * LangGraph integration
 * Observability with LangSmith
 * Kubernetes deployment
-
----
-
-# 📸 Screenshots
-
-*Add application screenshots here*
 
 ---
 
