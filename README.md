@@ -198,8 +198,6 @@ aws s3 sync out/ s3://your-bucket-name --delete
 
 * Create CloudFront distribution
 * Set S3 bucket as origin
-* Configure custom domain via Route 53
-* Enable HTTPS using ACM certificate
 
 ---
 
